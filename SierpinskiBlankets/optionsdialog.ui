@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OptionsDialog</class>
+ <widget class="QDialog" name="OptionsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QRadioButton" name="butnGasket">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>79</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gasket</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="btnCarpet">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>202</y>
+     <width>78</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Carpet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDraw">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Draw</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>70</y>
+     <width>92</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnReverseGasket">
+   <property name="geometry">
+    <rect>
+     <x>171</x>
+     <y>160</y>
+     <width>138</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reverse Gasket</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnReverseCarpet">
+   <property name="geometry">
+    <rect>
+     <x>171</x>
+     <y>202</y>
+     <width>137</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reverse Carpet</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnCircle">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>118</y>
+     <width>75</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Circles</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>49</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>9</number>
+   </property>
+   <property name="value">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>67</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>levels</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnStar">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>244</y>
+     <width>65</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stars</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnReverseStar">
+   <property name="geometry">
+    <rect>
+     <x>171</x>
+     <y>244</y>
+     <width>124</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reverse Stars</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="butnReverseCircle">
+   <property name="geometry">
+    <rect>
+     <x>171</x>
+     <y>118</y>
+     <width>135</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reverse Circles</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
